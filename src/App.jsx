@@ -1,15 +1,13 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import myData from './romain.json'
 
 function Header({firstname, lastname, description}){
   return (
     <header>
-      <div className="flex flex-col items-center justify-center bg-[#FD4245]">
-        <h1 className="text-5xl">{lastname} {firstname}</h1>
-        <p>{description}</p>
+      <div className="flex flex-col items-start justify-between min-w-300 h-80 px-20 py-20 bg-[#FD4245]">
+        <h1 className="text-7xl font-semibold font-montserrat tracking-widest text-white">{lastname.toUpperCase()} {firstname.toUpperCase()}</h1>
+        <p className="text-3xl font-medium font-montserrat tracking-widest">{description}</p>
       </div>
     </header>
   )
