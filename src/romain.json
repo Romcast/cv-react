@@ -1,4 +1,12 @@
 {
     "firstname": "Romain",
-    "lastname": "Castelao"
+    "lastname": "Castelao",
+    "intro": "ÉTUDIANT EN INFORMATIQUE À LA RECHERCHE D'UN STAGE DE 18 SEMAINES MINIMUM À PARTIR DE JANVIER 2025",
+    "informations":[
+        {"label": "Coordonnés", "infoList": ["castelao.romain@gmail.com", "06 83 61 95 21", "33 av. des Résédas Pontault-Combault 77340"]},
+        {"label": "Compétences informatiques", "infoList": ["C - C++ - R - Haskell - Python 3 - OCaml - SQL - Java - Javascript - CSS - PHP - HTML", "Word - Excel"]},
+        {"label": "Compétences personnelles", "infoList": ["Persévérant", "Optimiste", "Patient", "Ouvert d'esprit", "Assidu", "Curieux"]},
+        {"label": "Langues", "infoList": ["Français (langue maternelle)", "Anglais (B2)", "Portugais (B1)"]},
+        {"label": "Centres d'intérets", "infoList": ["Jeux vidéos cooperatifs et compétitifs en ligne", "E-sport (League of Legends et Rocket League)", "Ligues de football européennes", "Musique : Rap US", "Lecture : Romans fantastiques" ]}
+    ]
 }
