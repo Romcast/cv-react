@@ -2,11 +2,89 @@
     "firstname": "Romain",
     "lastname": "Castelao",
     "intro": "ÉTUDIANT EN INFORMATIQUE À LA RECHERCHE D'UN STAGE DE 18 SEMAINES MINIMUM À PARTIR DE JANVIER 2025",
-    "informations":[
-        {"label": "Coordonnés", "infoList": ["castelao.romain@gmail.com", "06 83 61 95 21", "33 av. des Résédas Pontault-Combault 77340"]},
-        {"label": "Compétences informatiques", "infoList": ["C - C++ - R - Haskell - Python 3 - OCaml - SQL - Java - Javascript - CSS - PHP - HTML", "Word - Excel"]},
-        {"label": "Compétences personnelles", "infoList": ["Persévérant", "Optimiste", "Patient", "Ouvert d'esprit", "Assidu", "Curieux"]},
-        {"label": "Langues", "infoList": ["Français (langue maternelle)", "Anglais (B2)", "Portugais (B1)"]},
-        {"label": "Centres d'intérets", "infoList": ["Jeux vidéos cooperatifs et compétitifs en ligne", "E-sport (League of Legends et Rocket League)", "Ligues de football européennes", "Musique : Rap US", "Lecture : Romans fantastiques" ]}
+    "informations": [
+        {
+            "label": "Coordonnés", 
+            "infoList": ["castelao.romain@gmail.com", "06 83 61 95 21", "33 av. des Résédas Pontault-Combault 77340"]
+        },
+        {
+            "label": "Compétences informatiques", 
+            "infoList": ["C - C++ - R - Haskell - Python 3 - OCaml - SQL - Java - Javascript - CSS - PHP - HTML", "Word - Excel"]
+        },
+        {
+            "label": "Compétences personnelles", 
+            "infoList": ["Persévérant", "Optimiste", "Patient", "Ouvert d'esprit", "Assidu", "Curieux"]
+        },
+        {
+            "label": "Langues", 
+            "infoList": ["Français (langue maternelle)", "Anglais (B2)", "Portugais (B1)"]
+        },
+        {
+            "label": "Centres d'intérets", 
+            "infoList": ["Jeux vidéos cooperatifs et compétitifs en ligne", "E-sport (League of Legends et Rocket League)", "Ligues de football européennes", "Musique : Rap US", "Lecture : Romans fantastiques" ]
+        }
+    ],
+    "experiences": [
+        {
+            "title": "Profil", 
+            "contents": [
+                {
+                    "description": "Étudiant trouvant son bonheur dans l'informatique et ne lâchant rien pour faire face aux défis. Je cherche un stage de 18 semaines minimum dans le domaine informatique pour mettre en œuvre et approfondir mes connaissances en informatique mais surtout développer des compétences professionnelles."
+                }
+            ]
+        },
+        {
+            "title": "Expérience professionelle",
+            "contents": [
+                {
+                    "subtitle": "Employé polyvalent",
+                    "place": "Carrefour",
+                    "time": "Octobre 2016 - Novembre 2016",
+                    "description": "Rangement et réapprovisionnement du rayon jouet - Étiquetage des produits - Rangement du stock"
+                },
+                {
+                    "subtitle": "Développeur web",
+                    "place": "LEAN Cabinet",
+                    "time": "Juillet 2023-Septembre 2023",
+                    "description": "Création de site web pour prise de rendez-vous médical - utilisation des frameworks Symfony et React - construction d'une API REST avec Symfony"
+                }
+            ]
+        },
+        {
+            "title": "Formation",
+            "contents": [
+                {
+                    "subtitle": "Classe préparatoire MPSI-MP",
+                    "place": "Lycée Albert Schweitzer, Le Raincy 93340",
+                    "time": "2020-2022"
+                },
+                {
+                    "subtitle": "Ingénieur génie informatique",
+                    "place": "CY Tech (ex EISTI), CERGY 95000",
+                    "time": "2022 - (en cours)"
+                }
+            ]
+        },
+        {
+            "title": "Projet académiques",
+            "contents": [
+                {
+                    "subtitle": "Étude des attaques de la cryptographie RSA",
+                    "time": "Juin 2021 - Juin 2022",
+                    "description": "Implémentation en python de l'algorithme RSA - Implémentation en python des attaques - Génération des grands nombres premiers"
+                },
+                {
+                    "subtitle" : "Implémentation du jeu du taquin en java (en groupe)",
+                    "time": "Mai 2023",
+                    "description": "Implémentations d'algorithmes de recherches de solutions optimales - Création d'une interface utilisateur avec à l'aide de Java FX - Création et gestion d'un profil utilisateur pour sauvegarder sa progression"
+                },
+                {
+                    "subtitle" : "Extraction d'informations à partir de cartes (en groupe)",
+                    "time" : "Janvier 2024 - Juin 2024",
+                    "description" : "Recherche et extraction de cartes provenant de plans locaux d’urbanismes à l’aide d’une IA - Géocoder automatiquement les cartes extraites et les convertir en fichiers raster géocodés"
+                }
+
+            ]
+        }
     ]
 }
